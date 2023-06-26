@@ -1,0 +1,50 @@
+*{
+  box-sizing: border-box;
+}
+
+.card-container{
+  width: 35vw;
+  height: 80vh;
+  border: 1px solid black;
+}
+
+.header{
+  height: 50%;
+  width: 100%;
+  background-image: url("./../images/pexels-matteo-milan-10770234.jpg");
+  background-size: cover;
+}
+
+.card{
+  display: flex;
+  font-size: 16px;
+  height: 50%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.user-img{
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: -15%;
+}
+
+.links{
+  display: flex;
+  width: 80%;
+  justify-content: space-around;
+  margin-bottom: 8%;
+}
+
+.links p{
+  font-weight: 800;
+
+
+}
+.links span{
+  color: rgb(147, 147, 147);
+}
